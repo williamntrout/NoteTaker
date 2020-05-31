@@ -1,4 +1,4 @@
-// dependencies.
+// dependencies
 const express = require("express");
 
 // routes.
@@ -11,7 +11,7 @@ const app = express();
 // port set up heroku or local
 const PORT = process.env.PORT || 3000;
 
-// express things
+// express 
 app.use(express.urlencoded({
     extended: true
 }));
